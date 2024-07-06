@@ -1,0 +1,13 @@
+Problem 07:
+------------------------------
+If I understand the constraint well, I have to use the "capacities" of the two given containers and the source to measure the required amount.
+Now I have bo achieve exactly 4 litres of water in container A using containers A (5 litres) and B (3 litres), along with an unlimited water source, you can follow these steps:
+
+1. Fill Container (B) --> B = 3 and A = 0
+2. Pour (B) Into  (A) --> B = 0 and A = 3
+3. Fill (B) again     --> B = 3 and A = 3
+4. Pour (B) into  (A) --> B = 1 and A = 5
+5. Empty          (A) --> B = 1 and A = 0 
+6. Pour (B) into  (A) --> B = 0 and A = 1
+7. Fill (B)           --> B = 3 and A = 1
+8. Pour (B) into (A)  --> B = 0 and A = 4 (The required amount)
